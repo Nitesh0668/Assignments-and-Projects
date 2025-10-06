@@ -6,9 +6,9 @@
 import datetime
 
 # Print a simple welcome message
-print("---")
+print("-")
 print("Welcome to the daily calorie tracker")
-print("---")
+print("-")
 print("This is a tool that helps to log meals and calories.")
 print("\n")
 
@@ -95,4 +95,5 @@ if save_report.lower() == 'yes':
     
     print("Report was saved to calorie_log.txt")
 else:
+
     print("Report was not saved.")
