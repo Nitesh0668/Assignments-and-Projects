@@ -1,0 +1,100 @@
+<!--Section A (Btech. Cybersecurity)-->
+<!--Project Name: Personal Portfolio-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Nitesh - Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <h1>Nitesh</h1>
+    <p>
+      Hi, I'm a Cybersecurity student in B.tech CSE. This is my project on
+      personal portfolio website.
+    </p>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="#main-content">Skip to main content</a>
+  </header>
+
+  <main id="main-content">
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="/mineprofilepicture.jpg" alt="A photo of me" width="150" />
+      <p>
+        I am a student currently learning about web development and
+        cybersecurity. I enjoy solving problems and building things.This page
+        shows some of my work.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><b>Python Calorie Tracker:</b> A simple command-line tool to log daily meals.</li>
+        <li><b>Portfolio Website:</b> The site you are looking at, I build it using HTML.</li>
+        <li><b>Network Scanner Script:</b> A basic Python script to discover devices on a local network.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills</h2>
+      <table border="1">
+        <tr>
+          <th>Skill/Technology</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Intermediate</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>Networking Concepts</td>
+          <td>Beginner</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form action="#" method="POST">
+        <label for="name_field">Name:</label><br>
+        <input type="text" id="name_field" name="user_name" placeholder="eg. Aryan" required>
+        <br><br>
+
+        <label for="email_field">Email:</label><br>
+        <input type="email" id="email_field" name="user_email" placeholder="eg. cybersecurity@gmail.com" required>
+        <br><br>
+
+        <label for="message_field">Message:</label><br>
+        <textarea id="message_field" name="user_message" rows="4" cols="30" placeholder="Write your message here..."
+          required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2025 Nitesh</p>
+  </footer>
+</body>
+
+</html>
