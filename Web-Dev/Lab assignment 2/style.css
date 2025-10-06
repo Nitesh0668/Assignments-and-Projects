@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-bg-color: #f4f4f9;      
+    --header-footer-bg: #ffffff;    
+    --primary-text-color: #333333;
+    --accent-color: #4a90e2;         
+    --border-color: #dddddd;         
+}
+
+/* appling the base styles to the whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    line-height: 1.6;
+}
+
+/* general container styles for centering content */
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--header-footer-bg);
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+h1, h2 {
+    color: #000;
+}
+
+
+/* navigation styling */
+nav {
+    background-color: var(--accent-color);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* removing the underline */
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    background-color: #357abd; /* darker bluu on hover */
+    border-radius: 5px;
+}
+
+
+/* box model spacing and visual element */
+
+section {
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 25px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* for the profile image */
+#about img {
+    border-radius: 50%; /* it makes the image circular */
+    border: 3px solid var(--border-color);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+/* table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* different row colors for good readability ("zebra striping") */
+tr:nth-child(even) {
+    background-color: var(--primary-bg-color);
+}
+
+
+/* buttons & form styling */
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #357abd; /* darker shade on hoverr */
+}
+
+input, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+
+/* positioning */
+
+.back-to-top {
+    position: fixed; /* stays in place during scrolling */
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.back-to-top:hover {
+    background-color: #357abd;
+}
