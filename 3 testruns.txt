@@ -1,0 +1,91 @@
+# test run 1
+
+-
+Welcome to the daily calorie tracker
+-
+This is a tool that helps to log meals and calories.
+
+
+How many meals would you like to log? 2
+ Entering Meal #1 
+Enter the meal name (e.g., Breakfast): milk
+Enter the calories for milk: 23
+ Entering Meal #2 
+Enter the meal name (e.g., Breakfast): fruits
+Enter the calories for fruits: 33
+
+What is your daily calorie limit? 54
+ Daily Summary Report 
+Meal Name            Calories
+milk                 23.0
+fruits               33.0
+Total:               56.00
+Average per meal:    28.00
+
+--- Final Status ---
+Warning: You are OVER your daily calorie limit.
+
+
+Would you like to save this report to a file? (yes/no): yes
+Report was saved to calorie_log.txt
+
+
+
+# Test run 2
+
+-
+Welcome to the daily calorie tracker
+-
+This is a tool that helps to log meals and calories.
+
+
+How many meals would you like to log? 1
+ Entering Meal #1 
+Enter the meal name (e.g., Breakfast): choco
+Enter the calories for choco: 56
+
+What is your daily calorie limit? 200
+ Daily Summary Report 
+Meal Name            Calories
+choco                56.0
+Total:               56.00
+Average per meal:    56.00
+
+--- Final Status ---
+Success: You are WITHIN your daily calorie limit.
+
+
+Would you like to save this report to a file? (yes/no): no
+Report was not saved.
+
+
+# test run 3
+
+-
+Welcome to the daily calorie tracker
+-
+This is a tool that helps to log meals and calories.
+
+
+How many meals would you like to log? 2
+ Entering Meal #1 
+Enter the meal name (e.g., Breakfast): egg
+Enter the calories for egg: 54
+ Entering Meal #2 
+Enter the meal name (e.g., Breakfast): bread
+Enter the calories for bread: 78
+
+What is your daily calorie limit? 300
+ Daily Summary Report 
+Meal Name            Calories
+egg                  54.0
+bread                78.0
+Total:               132.00
+Average per meal:    66.00
+
+--- Final Status ---
+Success: You are WITHIN your daily calorie limit.
+
+
+Would you like to save this report to a file? (yes/no): no
+Report was not saved.
