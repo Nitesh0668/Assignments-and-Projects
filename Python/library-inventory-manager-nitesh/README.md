@@ -12,11 +12,18 @@ How to run:
 
 Output screenshots:
 
-<img width="450" height="801" alt="image" src="https://github.com/user-attachments/assets/2c2d21fd-4020-492f-bbe3-f52076b072fc" />
 
 
-<img width="425" height="832" alt="image" src="https://github.com/user-attachments/assets/d982a635-fd77-4425-b558-fb0a066bb607" />
+<img width="450" height="801" alt="1" src="https://github.com/user-attachments/assets/aae4d6fe-e9e2-4915-9590-705eb9e8d23b" />
+
+---
+<img width="425" height="832" alt="2" src="https://github.com/user-attachments/assets/ba79ed9e-3eb2-4b44-8815-2fd246e2dcfa" />
 
 
-<img width="347" height="203" alt="image" src="https://github.com/user-attachments/assets/f00808d4-8d56-4441-9bec-27c036fab5cc" />
+---
 
+
+<img width="347" height="203" alt="3" src="https://github.com/user-attachments/assets/c8a50ddb-c62d-42aa-ae5a-83aaf59654ee" />
+
+
+---
