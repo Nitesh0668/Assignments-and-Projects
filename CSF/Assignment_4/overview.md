@@ -15,37 +15,14 @@ The Purpose of this assignment is
 Development Process:
 
 Step 1: Writing a python script using VS code.
+Step 2: Cloning repository using git.
+Step 3: Add main.py to Repo. using git.
+Step 4: Pushing the code to github using git.
+Step 5: Creating .gitignore and README.md.
+Step 6: Documentation
 
+Future Improvements:
 
-
-Initialized a Git repository using:
-
-git init
-
-
-Created .gitignore and README.md
-
-Step 2: Writing Code
-
-Created main.py and added basic Python functionality
-
-Step 3: Version Control
-
-Tracked changes using:
-
-git add .
-git commit -m "Initial project setup"
-
-Step 4: Uploading to GitHub
-
-Cloned the main repository
-
-Added the new assignment files into Assignment_4
-
-Pushed updates using:
-
-git push
-
-Step 5: Documentation
-
-Created structured documentation inside docs/
+- Code Improvement
+- Automation
+- Documentation
