@@ -12,4 +12,11 @@ How to run:
 
 Output screenshots:
 
-![alt text](Ouput_screenshots/1.png) ![alt text](Ouput_screenshots/2.png) ![alt text](Ouput_screenshots/3.png)
+<img width="450" height="801" alt="image" src="https://github.com/user-attachments/assets/2c2d21fd-4020-492f-bbe3-f52076b072fc" />
+
+
+<img width="425" height="832" alt="image" src="https://github.com/user-attachments/assets/d982a635-fd77-4425-b558-fb0a066bb607" />
+
+
+<img width="347" height="203" alt="image" src="https://github.com/user-attachments/assets/f00808d4-8d56-4441-9bec-27c036fab5cc" />
+
