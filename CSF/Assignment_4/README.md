@@ -41,7 +41,7 @@ git push
 
 
 ---
-Screenshots:
+**Screenshots:**
 
 
 ![1.png](https://github.com/user-attachments/assets/06a08527-0efb-4336-aaa9-19aded9cdacd)
