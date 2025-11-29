@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Nitesh — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <div>
+          <h1 class="logo">Nitesh</h1>
+          <p class="tag">Cybersecurity student • B.Tech CSE</p>
+        </div>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <!--hero   -->
+      <section class="hero">
+        <div class="hero-left">
+          <h2 class="hero-title">Hello I'm Nitesh</h2>
+          <p class="lead">
+            I learn web development and cybersecurity. I enjoy building small
+            tools and solving problems.
+          </p>
+          <p>I build things. <span class="role">Full Stack Developer</span></p>
+        </div>
+        <div class="hero-right">
+          <img
+            src="mineprofilepicture.jpg"
+            alt="Nitesh profile"
+            class="photo"
+          />
+        </div>
+      </section>
+
+      <!--about -->
+      <section id="about" class="simple-section">
+        <h3>About me</h3>
+        <p>
+          I am a B.Tech CSE student learning networking, Python, and web basics.
+          I like practical projects that teach me things.
+        </p>
+      </section>
+
+      <!-- skills-->
+      <section id="skills" class="simple-section">
+        <h3>Skills</h3>
+        <div class="skills-grid">
+          <div class="skill">HTML — Intermediate</div>
+          <div class="skill">CSS — Beginner</div>
+          <div class="skill">Python — Beginner</div>
+          <div class="skill">Networking — Beginner</div>
+          <div class="skill">Linux — Beginner</div>
+          <div class="skill">Git — Beginner</div>
+        </div>
+      </section>
+
+      <!--projects -->
+      <section id="projects" class="simple-section">
+        <h3>Projects</h3>
+        <div class="projects-grid">
+          <article class="project">
+            <h4>Python Calorie Tracker</h4>
+            <p class="muted">
+              A small command-line tool to log meals and calories.
+            </p>
+          </article>
+
+          <article class="project">
+            <h4>Portfolio Website</h4>
+            <p class="muted">This website built using plain HTML &amp; CSS.</p>
+          </article>
+
+          <article class="project">
+            <h4>Network Scanner Script</h4>
+            <p class="muted">
+              A basic Python script to discover devices on the local network.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact form -->
+      <section id="contact" class="simple-section contact-section">
+        <h3>Contact</h3>
+        <p class="muted">If you'd like to reach out, send a message below.</p>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <label for="name_field">Name</label>
+          <input
+            id="name_field"
+            name="user_name"
+            type="text"
+            placeholder="eg. Aryan"
+            required
+          />
+
+          <label for="email_field">Email</label>
+          <input
+            id="email_field"
+            name="user_email"
+            type="email"
+            placeholder="eg. cybersecurity@gmail.com"
+            required
+          />
+
+          <label for="message_field">Message</label>
+          <textarea
+            id="message_field"
+            name="user_message"
+            rows="4"
+            placeholder="Write your message..."
+            required
+          ></textarea>
+
+          <div class="form-row">
+            <button class="btn" type="submit">Send</button>
+            <button class="btn ghost" type="reset">Reset</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Nitesh</p>
+      </div>
+    </footer>
+  </body>
+</html>
