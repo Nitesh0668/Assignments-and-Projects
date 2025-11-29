@@ -1,8 +1,8 @@
   // array
   const quizQuestions = [
     {
-      question: "Kya aap pagal ho ?",
-      answer: "Yes",
+      question: "Which year is this ?",
+      answer: "2025",
     },
     {
       question: "Which is the largest state in india by area?",
@@ -70,3 +70,4 @@
 
   // timeout to start the quize automatically after 2 second.
   setTimeout(runQuiz, 2000);
+
