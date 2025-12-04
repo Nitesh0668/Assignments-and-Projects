@@ -1,0 +1,18 @@
+# Weather Data Analysis Report
+
+## 1. Introduction
+I analyzed weather data containing Temperature, Rainfall, and Humidity.
+The goal was to find trends and clean the data.
+
+## 2. Dataset Info
+- Rows: 100
+- Columns: Date, Temp, Rain, Humidity
+- Source: Synthetic (Generated for testing)
+
+## 3. Key Findings
+- The average temperature was around 30 degrees.
+- Humidity and Temperature showed a loose relationship.
+- Rainfall varied significantly month by month.
+
+## 4. Conclusion
+cleaned data and visualized. The hottest days did not always equal the most humid days.

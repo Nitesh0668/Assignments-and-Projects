@@ -1,0 +1,9 @@
+
+EXECUTIVE SUMMARY REPORT
+========================
+Total Campus Consumption: 54136 kWh
+Highest Consuming Building: Dorm_A
+Peak Load Date: 2025-01-18
+
+Detailed trends are available in the 'dashboard.png'.
+Processed data saved to 'output/' folder.
