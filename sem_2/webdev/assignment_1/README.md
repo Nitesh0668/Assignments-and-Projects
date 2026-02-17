@@ -74,6 +74,8 @@ Or use Live Server in VS Code.
 
 ## Screenshots
 
+<img width="1919" height="1079" alt="Screenshot 2026-02-17 144518" src="https://github.com/user-attachments/assets/60d4a979-85bc-443f-94fd-03863b9930d0" />
+
 
 
 ---
@@ -101,5 +103,6 @@ Or use Live Server in VS Code.
 ---
 
 ## Author
+
 
 Mehak, Web Development Practice Project
