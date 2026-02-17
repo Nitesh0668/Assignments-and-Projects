@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("./background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+  z-index: -1;
+}
+
+.title{
+  text-align:center;
+  color:white;
+  margin:20px;
+}
+
+.container{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  padding:20px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  background: linear-gradient(90deg,#6a8cff,#8a5cff);
+  color: white;
+  transition: all 0.25s ease;
+}
+
+/* hover animation */
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+/* click animation */
+button:active {
+  transform: scale(0.96);
+}
+
+.cardBox{
+  background:white;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 8px 22px rgba(0,0,0,0.15);
+  transition:0.3s ease;
+}
+
+.cardBox:hover{
+  transform:translateY(-4px);
+}
+
+.eventform{ width:300px; }
+.events{ width:400px; }
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+input,select,textarea{
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+.primary{
+  background:linear-gradient(90deg,#6a8cff,#8a5cff);
+  color:white;
+  border:none;
+}
+
+.actions{
+  display:flex;
+  gap:10px;
+  margin-bottom:10px;
+}
+
+.actions button{
+  background:linear-gradient(90deg,#6a8cff,#8a5cff);
+  color:white;
+}
+
+.cards{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.card{
+  background:#eef1f8;
+  padding:15px;
+  border-radius:12px;
+  position:relative;
+  transition:0.25s;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.card button{
+  background:#6a8cff;
+  color:white;
+  font-size:12px;
+  padding:5px 10px;
+  border-radius:20px;
+  border:none;
+}
+
+.deletecard{
+  position:absolute;
+  top:8px;
+  right:8px;
+  background:red;
+  color:white;
+  width:24px;
+  height:24px;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  font-size:14px;
+  transition:0.2s;
+}
+
+.deletecard:hover{
+  transform:scale(1.2);
+}
+
+.dom{
+  margin:30px auto;
+  width:750px;
+}
+
+.key{
+  color:#6a8cff;
+  font-weight:bold;
+}
