@@ -1,64 +1,52 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #167b95, #6a6b1e);
-    color: white;
-}
-
-.title {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    background: linear-gradient(135deg, #422622, #a5cbaa);
+    min-height: 100vh;
 }
 
-.container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
+h2, h3 {
+    color: #cde1b2;
 }
 
-.card {
-    background: white;
-    color: black;
-    padding: 20px;
-    width: 380px;
-    border-radius: 8px;
+form {
+    margin-bottom: 20px;
 }
 
 input {
-    width: 70%;
-    padding: 8px;
+    padding: 10px;
+    width: 220px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #ffffffcc;
 }
 
 button {
-    padding: 8px 12px;
-    background: #ff1837;
+    padding: 10px 15px;
+    background-color: #535f08;
+    color: #fff;
     border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-#history span {
-    background: #accfec;
-    color: white;
-    padding: 4px 8px;
-    margin: 5px 5px 0 0;
-    display: inline-block;
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-.console {
-    margin: 20px auto;
-    width: 80%;
-    background: #136742;
-    padding: 15px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-pre {
-    color: #9be7ff;
-    font-size: 13px;
+button:hover {
+    background-color: #625a4f;
+}
+
+.info {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    margin: 20px auto;
+    width: 260px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.historyBtn button {
+    margin: 5px;
+    background-color: #454d5c;
+    color: #1b4332;
 }
