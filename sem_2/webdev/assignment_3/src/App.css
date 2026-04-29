@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header-subtitle {
+  color: blue;
+  font-size: 14px;
+}
+
+.header-subtitle .line {
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.header-title {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.header-title .highlight {
+  color: blue;
+}
+
+.header-divider {
+  height: 2px;
+  background-color: blue;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.panel {
+  background-color: white;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.panel-title {
+  font-weight: bold;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.cyan-dot {
+  background-color: blue;
+}
+
+.highlight-text {
+  color: blue;
+}
+
+.add-form {
+  display: flex;
+}
+
+.add-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+  border: 1px solid #cccccc;
+}
+
+.add-form .add-btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-form .add-btn:hover {
+  background-color: darkblue;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  width: 30%;
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.stat-value {
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+}
+
+.table-header {
+  display: flex;
+  background-color: #eeeeee;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.table-row {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+  align-items: center;
+}
+
+.row-pass {
+  border-left: 5px solid green;
+}
+
+.row-fail {
+  border-left: 5px solid red;
+}
+
+.col {
+  flex: 1;
+}
+
+.name-col {
+  flex: 2;
+}
+
+.score-col {
+  font-weight: bold;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.badge-pass {
+  color: green;
+  border-color: green;
+}
+
+.badge-fail {
+  color: red;
+  border-color: red;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.badge-pass .status-dot {
+  background-color: green;
+}
+
+.badge-fail .status-dot {
+  background-color: red;
+}
+
+.update-input {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+.save-btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  color: #666666;
+}
