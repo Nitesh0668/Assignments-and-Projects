@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: #f5f3ee;
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --yellow-primary: #f5c518;
+  --yellow-light: #fef9e7;
+  --yellow-muted: #fde68a;
+  --navy: #0f1b35;
+  --navy-muted: #1e3a5f;
+  --cream: #f5f3ee;
+  --cream-dark: #ede9e0;
+  --text-primary: #1a1a2e;
+  --text-muted: #6b7280;
+  --border: #e2ddd3;
+  --white: #ffffff;
+}
+
+.font-serif-display {
+  font-family: 'DM Serif Display', Georgia, serif;
+}
+
+.nav-link-active {
+  background-color: var(--yellow-primary) !important;
+  color: var(--navy) !important;
+  font-weight: 700;
+}
+
+.nav-link-active .nav-dot {
+  background-color: var(--navy);
+}
+
+.btn-yellow {
+  background-color: var(--yellow-primary);
+  color: var(--navy);
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-yellow:hover {
+  background-color: #e0b015;
+  transform: translateY(-1px);
+}
+
+.btn-yellow:active {
+  transform: scale(0.97);
+}
+
+.card-hover {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.stat-card-yellow {
+  border-top: 3px solid var(--yellow-primary);
+}
+
+.table-row-hover:hover {
+  background-color: var(--yellow-light);
+}
+
+.focus-yellow:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(245, 197, 24, 0.35);
+  border-color: var(--yellow-primary) !important;
+}
+
+@keyframes soft-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.live-dot {
+  animation: soft-pulse 2.5s ease-in-out infinite;
+}
+
+.material-symbols-outlined {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 10px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2.5px solid var(--yellow-muted);
+  border-top-color: var(--yellow-primary);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
